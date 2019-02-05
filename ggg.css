@@ -76,15 +76,15 @@ html {
 }
 
 .os-phrases h2:nth-child(2) > span > span > span {
-	-webkit-animation-delay: 17s;
-	-moz-animation-delay: 17s;
-	animation-delay: 17s;
+	-webkit-animation-delay: 5s;
+	-moz-animation-delay: 5s;
+	animation-delay: 5s;
 }
 
 .os-phrases h2:nth-child(3) > span > span > span {
-	-webkit-animation-delay: 19s;
-	-moz-animation-delay: 19s;
-	animation-delay: 19s;
+	-webkit-animation-delay: 9s;
+	-moz-animation-delay: 9s;
+	animation-delay: 9s;
 	-webkit-animation-duration: 6s;
 	-moz-animation-duration: 6s;
 	animation-duration: 6s;
@@ -110,15 +110,15 @@ html {
 	-webkit-animation-delay: 28.5s;
 	-moz-animation-delay: 28.5s;
     animation-delay: 28.5s;
-    -webkit-animation-duration: 2s;
-	-moz-animation-duration: 2s;
-	animation-duration: 2s;
+    -webkit-animation-duration: 8s;
+	-moz-animation-duration: 8s;
+	animation-duration: 8s;
 }
 
 .os-phrases h2:nth-child(7) > span > span > span {
-	-webkit-animation-delay: 32s;
-	-moz-animation-delay: 32s;
-    animation-delay: 32s;
+	-webkit-animation-delay: 36s;
+	-moz-animation-delay: 36s;
+    animation-delay: 36s;
     -webkit-animation-duration: 15s;
 	-moz-animation-duration: 15s;
 	animation-duration: 15s;
@@ -250,10 +250,12 @@ html {
 }
 /*End Tutorial Take Away*/
 
-footer {
+#footer {
 	display: block;
-	position : absolute;
-	bottom : 0;
+	position: absolute;
+  	right: 0px;
+  	bottom: 0;
+  	left: 0;
 	height : 40px;
 	margin-top : 40px;
   }
